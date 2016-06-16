@@ -1,0 +1,166 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/files/Asap-regular.otf);
+    font-weight: 300;
+}
+@font-face {    
+    font-family: myFirstFont;
+    src: url(/files/Asap-bold.otf);
+    font-weight: 500;
+}
+
+
+
+//---------------------------------------------------------//
+
+
+body {
+  background-color: #141518;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+//---------------------------------------------------------//
+
+
+header {
+  display: block;
+  position: absolute; 
+  top: 0;
+  z-index: 99;
+  width: 100%;	
+}	
+
+.burrito{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+	@media only screen and (max-width: 1000px){
+	  width:86%;
+	}
+	@media only screen and (max-width: 768px){
+	  width:90%;
+	}
+}
+
+nav{
+  width: 100%;
+  display: inline-block;
+  height: 40px;
+  font-weight: 600;
+  margin: 40px 0;
+  align-items: center;
+	ul{
+	  list-style-type: none;
+	  float: right;
+	  margin: 10px;
+	  margin-left: 42px;
+	  color: white;
+	  font-weight: 400;
+    	li{
+		  display: inline-block;
+		  margin-left: 40px;
+		  padding-top: 2px;
+		  a{
+			text-decoration: none;
+			color: white;
+		  }
+	    }
+	}
+}
+
+.logo{
+  display: inline-block;
+  width: auto;
+  height: 24px;
+  //background-color: #FA3535;
+  position: relative;
+  float: left;
+  flex-shrink: 0;
+  //border-radius: 26px;
+}
+
+//---------------------------------------------------------//
+
+.container{
+  width: auto;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+	
+}
+
+.wrap{
+  text-align: -webkit-left;
+  margin: 0 auto;
+  width: 80%;
+    //@media only screen and (max-width: 1000px){
+	  //width:86%;
+	//}
+	//@media only screen and (max-width: 768px){
+	//  width:90%;
+	//}	
+}
+
+.info{
+  width:600px;
+  position: relative;
+  
+  h1{
+	font-family: open sans;
+    font-size: 52px;
+    font-weight: 900;
+    color:#ffffff;
+  }
+  
+  p{
+	font-family: open sans;
+	line-height: 1.4;
+	font-weight: 400;
+	font-size: 16px;
+	color:#5F6269;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
