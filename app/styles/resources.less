@@ -1,0 +1,127 @@
+@import "common.less";
+
+.resources {
+  a {
+    pointer-events: none;
+    color: @link-color !important;
+  }
+}
+
+#top-banner {
+	height: auto;
+
+	@media screen and (min-width: @screen-sm) {
+  	box-shadow: 0 2px 10px #eaeaea;
+  }	
+	 
+  @media screen and (min-width: @screen-sm) and (max-width: @screen-md) {
+    text-align: left;
+    height: 610px;   
+  }
+
+  @media screen and (min-width: @screen-md) {
+    height: 663px;   
+  }
+
+  @media screen and (min-width: @screen-lg) {
+    height: 445px;   
+  }
+
+  .banner-content {
+    z-index: 1;
+
+    @media screen and (min-width: @screen-lg) {
+	  	padding-top: 45px;
+	  }
+
+	 	@media screen and (min-width: @screen-xlg) {
+			width: 100%;
+	 	}
+
+	 	h1 {
+	  	position: relative;
+	  	z-index: 1;
+	  }
+  }
+
+  img {
+    top: initial;
+    bottom: 0;	
+  }
+}
+
+.promo-content {
+
+	margin: 100px 0 45px;
+
+	p {
+		color: #666;
+		margin-top: 20px;
+	}
+}
+
+#res-content {
+
+	h3 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.res-row {
+		margin-bottom: 55px;
+
+		img {
+			position: absolute;
+			top: 18px;
+
+			@media screen and (min-width: @screen-sm) {
+		  	position: relative;
+		  }
+		}
+	}
+
+	.card {
+
+		a {
+		  display: block;
+			font-size: 16px;
+			font-family: @headings-font-family;
+			text-decoration: none;
+		}
+	}
+}
+
+.list-item {
+
+	h4 {
+	  color: #636363;
+	  margin-bottom: 5px;
+	  font-weight: 700;
+	}
+
+	p {
+		color: #666;
+	  font-size: 16px;
+	  margin-top: 5px;
+	  margin-bottom: 30px;
+	}
+
+	small {
+		font-family:  @headings-font-family;
+	  font-size: 15px;
+  	margin-bottom: 15px;
+		color: #999;
+		display: block;
+	}
+
+	iframe {
+	  width: 90%;
+	  margin-bottom: 10px;
+	  height: 250px;
+	}
+}
+
+#videos-wrapper {
+	background-color: #f2f2f2;
+}
+

@@ -1,0 +1,55 @@
+{
+  "Grade": [
+    "Kindergarten",
+    "Grade 1",
+    "Grade 2",
+    "Grade 3",
+    "Grade 4",
+    "Grade 5",
+    "Grade 6",
+    "Grade 7",
+    "Grade 8",
+    "Grade 9",
+    "Grade 10",
+    "Grade 11",
+    "Grade 12",
+    "Other"
+  ],
+  "SubjectArea": {
+    "Mathematics": [
+      "Math - Common Core"
+    ],
+    "ELA": [
+      "ELA - Common Core"
+    ],
+    "Science": [
+      "Science - NGSS"
+    ],
+    "Other Subjects": [
+      "Art",
+      "Dance",
+      "Drama",
+      "Music",
+      "Driver's Education",
+      "Health Education",
+      "ESL",
+      "Journalism",
+      "Reading",
+      "Speech",
+      "Basic Science",
+      "Biology",
+      "Chemistry",
+      "Economics",
+      "European History",
+      "Geography",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Latin",
+      "Spanish",
+      "Social Studies",
+      "Other"
+    ]
+  }
+}

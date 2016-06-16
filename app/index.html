@@ -1,0 +1,557 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Edulastic: Interactive Common Core Formative Assessments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-6168218-8', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+  <meta name="keywords" content="edulastic, learning, assessments, etc.">
+  <meta name="description" content="Spark engagement and get a complete view of student learning with easily customized PARCC- and SBAC-like assessments and instant online insights.">
+  <script src="//cdn.optimizely.com/js/2849070392.js"></script>
+</head>
+<body>
+  <header id="main-header" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed profile-menu-toggle" type="button" data-toggle="collapse" data-target="#navbar">
+              <div class="row">
+                <div class="col-xs-6 menu-item">Menu</div>
+                <div class="col-xs-6">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </div>
+              </div>
+            </button>
+            <a href="/" class="navbar-brand">
+  
+            </a>
+          </div>
+          <a class="hidden-xs col-md-3 pull-right free-ac-link" href="//app.edulastic.com/#signup" onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Header Button'});"><span class="btn btn-lg btn-block rounded-green-btn free-ac-btn">Join for Free</span></a>
+          <nav id="navbar" class="navbar-collapse collapse col-sm-12 col-md-8">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="district"><a href="/districts">Districts</a></li>
+              <li class="teacher"><a href="/teachers">Teachers</a></li>
+              <li class="training-hub"><a href="/teacher-training-hub">Training Hub</a></li>
+              <li class="ourstory"><a href="/our-story">Our Story</a></li>
+              <li class=""><a href="//edulastic.zendesk.com/hc/en-us" target="_blank">Support</a></li>
+              <li class="main"><a href="//app.edulastic.com/" target="_blank" class="login-text" onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Header Login'});">Log In</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  
+  <div id="content" role="content" tabindex="-1">
+    <section id="top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="banner-content col-xs-12 col-sm-12">
+            <h1 class="banner-heading f40">Turn Assessment Into Your Ally.</h1>
+            <span class="f24">Now it’s the learning tool it should be.</span>
+            <a href="#" class="btn btn-primary btn-lg rounded-blue-btn cta f20" role="cta" data-video-link="//preview.edulastic.com/demo/assessmentPreview?aId=ODE4NDk3ODk%3D" data-video-title="" data-video-width="1024" data-video-height="600" data-target="#assessmentModal" data-toggle="modal" onclick="ga('send', 'event', { eventCategory: 'Preview Button', eventAction: 'Click', eventLabel: 'Hero Image Button'});">Try a Tech-Enhanced Assessment</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <img src="/images/hero-image.png" width="1385" height="636" alt="">
+      </div>
+    </section>
+    <section id="display-prod" class="gradient-bg-w-g">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="promo-content">
+              <h2 class=""><span class="block">Keep tabs on what students know and what they don’t.</span><span class="block">And keep your instruction on track.</span></h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="ipad-home-animate">
+              <img src="/images/ipad-animate.gif" width="633" alt="">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul>
+              <li>30+ SBAC- and PARCC-like question types</li>
+              <li>Immediate data with automatic grading</li>
+              <li>More than 2,000 assessments created by experts, customizable by you</li>
+              <li>Collaborate & share assessments privately within your school or district</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gray-light" id="card-holder">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="card">
+              <div class="row">
+                <div class="card-item col-sm-12 col-md-12"><a href="/teachers">Free Teacher Version</a></div>
+                <div class="content-holder col-sm-12 col-md-12">
+                  <p class="f16">Instantly gauge student learning and track mastery of Common Core standards throughout the year. Save time with auto-grading.</p>
+                </div>
+                <div class="col-sm-12 col-md-12"><a href="//app.edulastic.com/#signup" target="_blank" class="btn btn-primary btn-lg rounded-blue-btn cta f20 align-middle" role="cta" onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Try Now Button'});">Create a Free Account</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="card">
+              <div class="row">
+                <div class="card-item col-sm-12 col-md-12"><a href="/districts">Enterprise Version for Districts</a></div>
+                <div class="content-holder col-sm-12 col-md-12">
+                  <p class="f16">Stay on top of student progress with ongoing data from interim and benchmark assessments, as well as from classroom formative activities.</p>
+                </div>
+                <div class="col-sm-12 col-md-12"><a href="//www.edulastic.com/demo" class="btn btn-primary btn-lg rounded-blue-btn cta f20 align-middle" target="_blank" role="cta" onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Demo Request Button'});">See a Demo</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="brand-logos">
+      <div class="container">
+        <div class="row">
+          <ul class="list-inline">
+            <li><a href="/press"><img src="/images/eSchool.png" alt=""></a></li>
+            <li><a href="/press"><img src="/images/edSurge.png" alt=""></a></li>
+            <li><a href="/press"><img src="/images/gettingSmart.png" alt=""></a></li>
+            <li><a href="/press"><img src="/images/theJournal.png" alt=""></a></li>
+            <li><a href="/press"><img src="/images/techLearning.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="map-area" class="gray-lighter">
+      <div class="container">
+        <div class="row">
+          <p class="col-xs-12 col-sm-12 col-md-3 desc-area f24">Join teachers from more than <span class="darker">21,000</span> schools who are using Edulastic to promote student learning.</p>
+          <div class="col-xs-12 col-sm-12 col-md-9 pics-wrapper">
+            <ul class="pics-holder">
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Caise-Jones.jpeg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Casie Jones</span><small>Instructional Coach, Shelby County Alternative Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Damion-Frye.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Damion Frye</span><small>Special Assistant for Curriculum & Instruction, Newark Public Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Chris-Aviles.jpeg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Chris Aviles</span><small>Ed Tech Coach, Fair Haven School District</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Joshua-Koen.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Joshua Koen</span><small>Special Assistant, Technology, Newark Public Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Chris-Bolognese.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Chris Bolognese</span><small>Instructional Leader, Upper Arlington Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Jason-Braddock.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Jason Braddock</span><small>Founding Chief Administrative Officer, Valley STEM+ME2 Academy, Mahoning County</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Stefanie-Gigante.jpeg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Stefanie Gigante</span><small>Latin Teacher, Ridgewood Public Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Craig-Kennedy.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Craig Kennedy</span><small>Social Studies Teacher, Frelinghuysen Middle School</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Dana-Collins.jpeg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Dana Collins</span><small>Supervisor, Math and Science, Flemington-Raritan School District</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Bryan-Ballenger.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Bryan Ballenger</span><small>Superintendent / Principal, Ballico-Cressey School</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Erik_Yates_headshot.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Erik Yates</span><small>Supervisor, Math, Science and Technology, Readington Public Schools District</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Lisa-Brizuela.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Lisa Brizuela</span><small>Science Teacher, Milpitas High School</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Jennifer-Kimbrell.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Jennifer Kimbrell</span><small>Educational Consultant and Curriculum Designer, Tech with Jen, LLC.</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img class="janet-img" src="/images/Janet-Flannery.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Janet Flannery</span><small>AP & Honors Statistics Stewarts Creek High School Rutherford County</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Kimberlee-Kelly.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Kimberlee Kelly</span><small>Social Studies Teacher & Digital Learning Coordinator, Alliance Simon Tech High School</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Harry-Dickens.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Harry Dickens</span><small>Author and Instructional Technology Consultant</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/TonyZerrer.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Tony Zerrer</span><small>Teacher at Capistrano Unified School District</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Tiffany-Markley.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Tiffany Markley</span><small>​Instructional Technology Coordinator for Morgan County Charter School System​</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Trey-duke.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Trey Duke</span><small>​​Response to Intervention & Instructional Technology Coordinator, Rutherford County Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Jackie-Williams.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Jackie Williams</span><small>​​​Instructional Technology Specialist, Rutherford County Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/jeannie-williams.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Jeannie Williams</span><small>​​​​District Instructional Technology Coach, Rutherford County Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Natalie-O-Pough.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Natalie Odom Pough, Ed.D.</span><small>​​​Administrator, Sterling School</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/tina.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Tina Faust</span><small>​​​Instructional Technology Specialist, Hawkins County Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Sarah-Miner.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Sarah Miner</span><small>​​​Reading-Language Arts-Social Studies Teacher, Clarksville-Montgomery School District</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/Jessica-McGuire.png" alt="">
+                  </div>
+                  <div class="profile-description"><span>Jessica McGuire</span><small>​​​Upper Classroom Teacher / Rural Schools Facilitator, Douglas Rural Schools</small></div>
+                </div>
+              </li>
+              <li class="pic-grid-item">
+                <div class="profile-pic-holder">
+                  <div class="img-holder">
+                    <img src="/images/teresascoggins.jpg" alt="">
+                  </div>
+                  <div class="profile-description"><span>Teresa Scoggins</span><small>​​​Technology Coach, Hopewell Elementary School</small></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="create-new-ac">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <span class="create-new-desc">Get Started Now.</span>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <a class="btn btn-primary btn-lg f20 rounded-border-btn" href="//app.edulastic.com/#signup" onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Bottom Button'});">
+                Create a Free Account
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="gray-darker" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="social-links footer-sections col-xs-12 col-sm-3">
+              <div class="row">
+                <span class="logo col-xs-12 col-sm-12">
+                   <img src="/images/footer-edu-logo.png" alt="" width="163" height="29" />
+                </span>
+                <div class="social-icons col-xs-12">
+                  <ul class="list-inline">
+                    <li><a href="//twitter.com/Edulastic" target="_blank" class="social-icon twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="//www.facebook.com/Edulastic" target="_blank" class="social-icon facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="//www.linkedin.com/company/edulastic" target="_blank" class="social-icon linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="hide"><a href="//edulastic.com/blog/feed/" target="_blank" class="social-icon rss"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="//www.pinterest.com/edulastic" target="_blank" class="social-icon pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="edu-footer-links footer-sections col-xs-12 col-sm-6">
+              <div class="row">
+                <ul class="col-xs-4 col-sm-4">
+                  <li><a href="/our-story">Our Story</a></li>
+                  <li><a href="/careers">Careers</a></li>
+                  <li><a href="/press">Press</a></li>
+                  <li><a href="//edulastic.com/blog" target="_blank">Blog</a></li>
+                </ul>
+                <ul class="col-xs-4 col-sm-4">
+                  <li><a href="/districts">Districts</a></li>
+                  <li><a href="/teachers">Teachers</a></li>
+                  <li><a href="/webinars">Webinar Library</a></li>
+                  <li class="training-links"><a href="/teacher-training-hub">Teacher Training Hub</a></li>
+                </ul>
+                <ul class="col-xs-4 col-sm-4">
+                  <li><a href="//edulastic.zendesk.com/hc/en-us" target="_blank">Support</a></li>
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="/terms-of-service">Terms of Service</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="edu-search col-xs-12 footer-sections col-sm-3">
+              <div class="row">
+                <div class="edu-address col-xs-12 vcard">
+                  <span class="org font-bold">Edulastic, a Snapwiz, Inc. platform</span>
+                  <span class="street-address" >39300 Civic Center Drive, Suite 220</span>
+                  <span class="locality">Fremont, <abbr class="region" title="California">CA</abbr></span>
+                  <span class="postal-code">94538</span>
+                  <span class="tel font-bold">510 509 9806</span>
+                  <span class="email font-bold"><a href="mailto:support@edulastic.com">support@edulastic.com</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center text-muted copy-line"><span>&copy; Copyright 2016 Snapwiz Inc. All Rights Reserved.</span></div>
+        </div>
+      </footer>
+      <div class="modal fade" id="assessmentModal" tabindex="-1" role="dialog" aria-labelledby="assessentModalTitle" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <a type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">&times;</a>
+            <div class="modal-header">
+              <span class="f28">Get Started Now</span>
+              <a class="btn btn-primary btn-lg rounded-blue-btn cta f20" onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Preview Button'});" href="//app.edulastic.com/#signup">Create a Free Account</a>
+              <h4 class="modal-title" id="assessmentModalTitle"></h4>
+            </div>
+            <div class="modal-body">
+              <iframe id="assessment-iframe" src="" width="1024" height="600" frameborder="0"></iframe>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!--Video Modal -->
+  <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog" aria-labelledby="videoModalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <a type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">&times;</a>
+        <div class="modal-header">
+          <h4 class="modal-title" id="videoModalTitle"></h4>
+        </div>
+        <div class="modal-body">
+          <iframe id="video-iframe1" src="" width="100%" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <!-- build:js scripts/main.js -->
+      <script src="bower_components/jquery/jquery.js"></script>
+      <script src="scripts/jquery.form.min.js"></script>
+      <script src="bower_components/moment/min/moment.min.js"></script>
+      <script src="scripts/jquery.nanoscroller.min.js"></script>
+      <script src="scripts/main.js"></script>
+      <script src="bower_components/instafeed.js/instafeed.min.js"></script>
+      <script src="bower_components/icheck/icheck.min.js"></script>
+      <!-- endbuild -->
+      <!-- build:js scripts/vendor/bootstrap.js -->
+      <script src="bower_components/bootstrap/js/affix.js"></script>
+      <script src="bower_components/bootstrap/js/alert.js"></script>
+      <script src="bower_components/bootstrap/js/dropdown.js"></script>
+      <script src="bower_components/bootstrap/js/tooltip.js"></script>
+      <script src="bower_components/bootstrap/js/modal.js"></script>
+      <script src="bower_components/bootstrap/js/transition.js"></script>
+      <script src="bower_components/bootstrap/js/button.js"></script>
+      <script src="bower_components/bootstrap/js/popover.js"></script>
+      <script src="bower_components/bootstrap/js/carousel.js"></script>
+      <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+      <script src="bower_components/bootstrap/js/collapse.js"></script>
+      <script src="bower_components/bootstrap/js/tab.js"></script>
+      <!-- endbuild -->
+      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('#main-header').affix({
+          offset: {
+            top: 120
+          }
+        });
+      });
+      </script>
+      <script src="scripts/jquery.bcSwipe.min.js"></script>
+      <script>$('.carousel').bcSwipe({ threshold: 30 });</script>
+    
+    <script>
+      $(document).ready(function(){
+        $('#videoModal1').on('show.bs.modal', function (event) {
+      var trigger = $(event.relatedTarget); // Button that triggered the modal
+      var videoTitle = trigger.data('video-title');
+      var vidlink = trigger.data('video-link'); // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this);
+      var width = trigger.data('video-width') ? trigger.data('video-width') : 320 ;
+      var height = trigger.data('video-height') ? trigger.data('video-height') : 240;
+
+      modal.find('.modal-title').text(videoTitle);
+      modal.find('.modal-body iframe').attr('src',vidlink);
+
+      // modal.find('.modal-body iframe').attr('width',width);
+      // modal.find('.modal-body iframe').attr('height',height);
+
+      $(this).find('.modal-body,.modal-dialog').css({
+             /* width: width, //probably not needed
+              height: height, //probably not needed */
+              'max-height':'100%',
+              'padding': 0
+       });
+
+    });
+
+    $('#videoModal1').on('hide.bs.modal', function (event) {
+      var modal = $(this);
+      modal.find('.modal-body iframe').attr('src','');
+    });
+
+  });
+
+    </script>
+  </body>
+  </html>
